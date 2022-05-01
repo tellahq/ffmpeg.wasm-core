@@ -16,20 +16,20 @@ run-all() {
     install-deps
     build-zlib
     build-x264
-    build-x265
+    #build-x265
     build-libvpx
-    build-wavpack
-    build-lame
+    #build-wavpack
+    #build-lame
     build-fdk-aac
-    build-ogg
+    #build-ogg
     build-vorbis
-    build-theora
+    #build-theora
     build-opus
-    build-libwebp
-    build-freetype2
-    build-fribidi
-    build-harfbuzz
-    build-libass
+    #build-libwebp
+    #build-freetype2
+    #build-fribidi
+    #build-harfbuzz
+    #build-libass
     #build-aom # disabled as it is extremely slow
     configure-ffmpeg
     build-ffmpeg
